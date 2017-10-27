@@ -11,8 +11,9 @@
 $(function() {
   $(".js-more").on("click", function() {
     var id = $(this).data("id");
+    debugger
     $.get("/products/" + id + ".json", function(data) {
-      debugger
+      
     });
   });
 });
