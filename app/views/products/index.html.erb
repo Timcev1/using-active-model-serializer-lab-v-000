@@ -9,11 +9,11 @@
 
 <script type="text/javascript" charset="utf-8">
 $(function() {
-  $(".js-more").on("click", function() {
+  $(".js-next").on("click", function() {
     var id = $(this).data("id");
     debugger
     $.get("/products/" + id + ".json", function(data) {
-      
+
     });
   });
 });
